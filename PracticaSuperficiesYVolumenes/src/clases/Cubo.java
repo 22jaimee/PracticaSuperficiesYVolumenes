@@ -17,7 +17,9 @@ public class Cubo {
 		/**
 		 * Crea un cubo de lado 1
 		 */
-		Cubo cubo1 = new Cubo(1);
+		public Cubo() {
+			lado=1;
+		}
 		
 		/**
 		 * Calcula la superficie del cubo
